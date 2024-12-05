@@ -23,7 +23,7 @@ const connect = async () => {
 
     try {
         // await mongoose.connect(process.env.MONGO);
-        await mongoose.connect("mongodb://localhost:27017/Booking");
+        await mongoose.connect("process.env.MONGO/Booking");
     } catch (error) {
         throw error;
     }
