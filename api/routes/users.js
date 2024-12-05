@@ -1,5 +1,5 @@
 import express from "express";
-import { updateUser, deleteUser, getUser, getUsers } from "../controllers/User.js";
+import { updateUser, deleteUser, getUser, getUsers } from "../controllers/user.js";
 import { verifyToken, verifyUser, verifyAdmin } from "../utils/verifyToken.js";
 
 // const { User } = require("../models/User");
