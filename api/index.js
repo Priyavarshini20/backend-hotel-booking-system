@@ -23,7 +23,7 @@ const connect = async () => {
 
     try {
         // await mongoose.connect(process.env.MONGO);
-        await mongoose.connect("process.env.MONGO/Booking");
+        await mongoose.connect("process.env.MONGO/booking");
     } catch (error) {
         throw error;
     }
